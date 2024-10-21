@@ -1,0 +1,94 @@
+/*Global CSS*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Quattrocento+Sans:wght@400;700&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: linear-gradient(315deg, #f4f5f6 0%, #9b4dca 74%);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.card {
+    width: 400px;
+    padding: 20px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    color: black;
+    font-weight: 600;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="password"],
+select {
+    width: 84%;
+    padding: 10px;
+    margin: 5px 0 15px;
+    border: 1px solid #433838;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.gender {
+    display: flex;
+    justify-content: left;
+    margin-bottom: 15px;
+}
+
+.gender label {
+    margin-right: 24px;
+}
+.btn{
+    display: flex;
+    justify-content: left;
+    margin-top: 15px;
+}
+.cancel-btn{
+    margin-right: 30px;
+    width: 80px;
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+.cancel-btn:hover {
+    opacity: 0.9;
+}
+.submit-btn {
+    background-image: linear-gradient(to right, #4caf50, #81c784);
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 80px;
+}
+
+.submit-btn:hover {
+    opacity: 0.9;
+}
